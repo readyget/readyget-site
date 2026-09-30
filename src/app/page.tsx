@@ -141,9 +141,10 @@ export default function Home() {
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-6">About Ready Get</h2>
           <p className="text-lg text-slate-600 dark:text-slate-400 mb-8">
-            We&apos;re a small team passionate about building apps that bring people closer together.
-            In a world of fleeting digital interactions, we believe in creating meaningful connections
-            through thoughtful, well-crafted experiences.
+            Ready Get LLC is a small software company in Raleigh, North Carolina. We build and run
+            Postie, the app that turns your photos into real printed postcards mailed for you, and
+            we&apos;re working on Fable. We&apos;re passionate about building apps that bring people
+            closer together, through thoughtful, well-crafted experiences.
           </p>
           <div className="flex justify-center gap-8">
             <div className="text-center">
@@ -157,43 +158,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      {/* Footer */}
-      <footer className="py-12 px-6 border-t border-slate-200 dark:border-slate-800">
-        <div className="max-w-6xl mx-auto">
-          <div className="flex flex-col md:flex-row justify-between items-center gap-6">
-            <div>
-              <span className="text-xl font-bold">Ready Get</span>
-              <p className="text-slate-600 dark:text-slate-400 text-sm mt-1">Apps that connect people</p>
-            </div>
-            <div className="flex gap-6">
-              <Link href="https://trypostie.com" target="_blank" className="text-slate-600 dark:text-slate-400 hover:text-[var(--postie-coral)] transition-colors">
-                Postie
-              </Link>
-              <a href="mailto:hello@readyget.app" className="text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white transition-colors">
-                Contact
-              </a>
-            </div>
-          </div>
-          <div className="mt-8 pt-8 border-t border-slate-200 dark:border-slate-800 flex flex-col sm:flex-row justify-between items-center gap-4 text-sm text-slate-600 dark:text-slate-400">
-            <p>© {new Date().getFullYear()} Ready Get LLC. All rights reserved.</p>
-            <div className="flex gap-6">
-              <a
-                href="https://trypostie.com/privacy-policy"
-                className="hover:text-slate-900 dark:hover:text-white transition-colors"
-              >
-                Privacy Policy
-              </a>
-              <a
-                href="https://trypostie.com/terms-of-service"
-                className="hover:text-slate-900 dark:hover:text-white transition-colors"
-              >
-                Terms of Service
-              </a>
-            </div>
-          </div>
-        </div>
-      </footer>
     </div>
   );
 }
