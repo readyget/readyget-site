@@ -53,7 +53,7 @@ export default function Home() {
                 Send Real Postcards From Your Phone
               </h2>
               <p className="text-lg text-slate-600 dark:text-slate-400 mb-6">
-                Turn your favorite photos into real, physical postcards delivered anywhere in the world. No stamps, no trips to the post office—just pure joy in their mailbox.
+                Turn your favorite photos into real, printed postcards, mailed for you to any address in the United States. No stamps, no trips to the post office—just pure joy in their mailbox.
               </p>
               <ul className="space-y-3 mb-8">
                 <li className="flex items-center gap-3">
