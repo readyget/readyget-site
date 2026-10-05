@@ -79,6 +79,14 @@ export default function Home() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                 </svg>
               </Link>
+              <p className="mt-4">
+                <a
+                  href="https://www.trypostie.com/sms-opt-in"
+                  className="text-sm text-slate-700 dark:text-slate-300 underline underline-offset-4 hover:text-[var(--postie-coral)] transition-colors"
+                >
+                  How Postie&apos;s text messages work (SMS opt-in)
+                </a>
+              </p>
             </div>
             <div className="relative">
               <div className="aspect-square bg-gradient-to-br from-[var(--postie-coral)] to-orange-400 rounded-3xl shadow-2xl flex items-center justify-center">
@@ -146,16 +154,6 @@ export default function Home() {
             we&apos;re working on Fable. We&apos;re passionate about building apps that bring people
             closer together, through thoughtful, well-crafted experiences.
           </p>
-          <div className="flex justify-center gap-8">
-            <div className="text-center">
-              <div className="text-4xl font-bold text-[var(--postie-coral)]">2</div>
-              <div className="text-slate-600 dark:text-slate-400">Apps</div>
-            </div>
-            <div className="text-center">
-              <div className="text-4xl font-bold text-[var(--fable-purple)]">∞</div>
-              <div className="text-slate-600 dark:text-slate-400">Memories Shared</div>
-            </div>
-          </div>
         </div>
       </section>
     </div>
