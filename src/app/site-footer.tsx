@@ -74,6 +74,9 @@ export function SiteFooter() {
             <a href="https://trypostie.com/terms-of-service" className={linkClass}>
               Terms of Service
             </a>
+            <a href="https://www.trypostie.com/sms-opt-in" className={linkClass}>
+              SMS Opt-In
+            </a>
           </div>
         </div>
       </div>

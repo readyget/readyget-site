@@ -6,7 +6,6 @@ Marketing site for [readyget.app](https://readyget.app)
 
 Ready Get is the company behind:
 - **[Postie](https://trypostie.com)** - Send real postcards from your phone
-- **Fable** - Your stories, beautifully told (Coming Soon)
 
 ## Development
 
