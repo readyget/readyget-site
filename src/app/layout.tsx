@@ -10,10 +10,10 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "Ready Get - Apps That Connect People",
-  description: "Ready Get builds apps that help people stay connected. Home of Postie and Fable.",
+  description: "Ready Get builds apps that help people stay connected. Home of Postie.",
   openGraph: {
     title: "Ready Get - Apps That Connect People",
-    description: "Ready Get builds apps that help people stay connected. Home of Postie and Fable.",
+    description: "Ready Get builds apps that help people stay connected. Home of Postie.",
     url: "https://readyget.app",
     siteName: "Ready Get",
     type: "website",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Ready Get - Apps That Connect People",
-    description: "Ready Get builds apps that help people stay connected. Home of Postie and Fable.",
+    description: "Ready Get builds apps that help people stay connected. Home of Postie.",
   },
 };
 

@@ -5,8 +5,6 @@
   --foreground: #0f172a;
   --postie-coral: #ff6b6b;
   --postie-coral-dark: #ee5a5a;
-  --fable-purple: #8b5cf6;
-  --fable-purple-dark: #7c3aed;
 }
 
 @theme inline {
@@ -14,8 +12,6 @@
   --color-foreground: var(--foreground);
   --color-postie: var(--postie-coral);
   --color-postie-dark: var(--postie-coral-dark);
-  --color-fable: var(--fable-purple);
-  --color-fable-dark: var(--fable-purple-dark);
   --font-sans: var(--font-inter);
 }
 
